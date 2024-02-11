@@ -1,10 +1,11 @@
 /* Components */
 import { Counter } from "./components/Counter/Counter";
+import { SortingList } from "@/app/components/SortingList/SortingList";
 
 export default function IndexPage() {
-  return <Counter />;
+  return <SortingList />;
 }
 
 export const metadata = {
-  title: "Redux Toolkit",
+  title: "Visualized Sorting",
 };
